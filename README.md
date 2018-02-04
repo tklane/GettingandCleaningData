@@ -16,11 +16,13 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 ## The dataset includes the following files:
 - 'README.txt'
 
+- 'run_analysis.R' - A R script which transforms the oringal dataset into a tidy dataset only looking at mean and standard deviation data from the orginal collection. The script generates two CSV's one named 'tidy.csv' which is the tidy set and a 'avgtidy.csv' which summarizes the minimal tidy data set by mean.
+
 - 'Code book and Feature Selection.txt': Shows information about the variables used on the feature vector and code book.
 
-- 'averagetidy.csv' - Tidy data set of the summary of all mean and standard deviation features by subject and activity type
+- 'averagetidy.csv' - Tidy data set of the summary of all mean and standard deviation features by subject and activity type.
 
-- 'tidy.csv' - Tidy data set of all the mean and standard deviation features associated with activity type and subject
+- 'tidy.csv' - Tidy data set of all the mean and standard deviation features associated with activity type and subject.
 
 - 'features.txt': List of all features.
 
